@@ -6,16 +6,16 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~su0WSayB#VpbmI1ZHmCPLTW7hLy-7kP90xxfFAGmQFLitFDO89n8",
     // add your Session Id make sure it starts with suho~
 
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || "+",
     // add your prefix for bot
 
     BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
     // add bot name here for menu
 
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     // make bot public-private-inbox-group 
 
     LINK_WHITELIST: "youtube.com,github.com",
@@ -27,7 +27,7 @@ module.exports = {
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // make true or false status auto seen
 
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
     // make true if you want auto reply on status 
 
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -39,13 +39,13 @@ module.exports = {
     WELCOME: process.env.WELCOME || "true",
     // true if want welcome and goodbye msg in groups 
 
-    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
     // make true to know who dismiss or promoted a member in group
 
     ANTI_LINK: process.env.ANTI_LINK || "true",
     // make anti link true,false for groups 
 
-    MENTION_REPLY: process.env.MENTION_REPLY || "false",
+    MENTION_REPLY: process.env.MENTION_REPLY || "true",
     // make true if want auto voice reply if someone mention you 
 
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
